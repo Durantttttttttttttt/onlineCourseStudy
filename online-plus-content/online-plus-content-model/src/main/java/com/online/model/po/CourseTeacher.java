@@ -1,4 +1,4 @@
-package com.online.model.po.po;
+package com.online.model.po;
 
 import com.baomidou.mybatisplus.annotation.*;
 import lombok.Data;
