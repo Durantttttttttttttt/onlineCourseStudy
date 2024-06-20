@@ -9,9 +9,7 @@
         <relativePath>../online-plus-parent</relativePath>
     </parent>
 
-    <groupId>com.online</groupId>
     <artifactId>online-plus-content</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
     <name>online-plus-content</name>
     <description>online-plus-content</description>
     <packaging>pom</packaging>

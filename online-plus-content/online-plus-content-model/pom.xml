@@ -9,9 +9,7 @@
         <relativePath>../pom.xml</relativePath>
     </parent>
 
-    <groupId>com.online</groupId>
     <artifactId>online-plus-content-model</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
     <name>online-plus-content-model</name>
     <description>online-plus-content-model</description>
 
@@ -23,21 +21,6 @@
             <version>0.0.1-SNAPSHOT</version>
         </dependency>
 
-        <!--存在mybatisplus注解添加相关注解保证不报错-->
-        <dependency>
-            <groupId>com.baomidou</groupId>
-            <artifactId>mybatis-plus-annotation</artifactId>
-            <version>${mybatis-plus-boot-starter.version}</version>
-        </dependency>
-        <dependency>
-            <groupId>com.baomidou</groupId>
-            <artifactId>mybatis-plus-core</artifactId>
-            <version>${mybatis-plus-boot-starter.version}</version>
-        </dependency>
-        <dependency>
-            <groupId>org.projectlombok</groupId>
-            <artifactId>lombok</artifactId>
-        </dependency>
     </dependencies>
 
 </project>
