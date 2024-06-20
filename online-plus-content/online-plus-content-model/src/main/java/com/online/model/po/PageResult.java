@@ -10,8 +10,8 @@ import java.util.List;
  */
 @Data
 @ToString
-public class PageResult {
-    private List<?> items;
+public class PageResult<T> {
+    private List<T> items;
 
     private Integer counts;
 
@@ -19,7 +19,7 @@ public class PageResult {
 
     private Integer pageSize;
 
-    public PageResult(List<?> items, Integer counts, Integer page, Integer pageSize) {
+    public PageResult(List<T> items, Integer counts, Integer page, Integer pageSize) {
         this.items = items;
         this.counts = counts;
         this.page = page;
